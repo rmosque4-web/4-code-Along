@@ -1,0 +1,20 @@
+/* css written by Rebecca Mosqueda*/
+/* GLOBAL STYLES (MOBILE FIRST) */
+body{
+    display:grid;
+    grid-template-columns:1fr;
+    background-color:green;  
+}
+@media screen and (min-width: 600px){
+    body{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        background-color:blue;   
+}
+}
+@media screen and (min-width: 800px){
+    body{
+        grid-template-columns:1fr 1fr 1fr;
+        background-color:purple;   
+} 
+}
